@@ -24,10 +24,14 @@ class MyPreprocessor:
         """
         Given a text, this function returns a preprocessed
         text which is tokenized and free from stopwords.
-        Keyword arguments:
-        text -- (str) text to be preprocessed
+
+        Arguments:
+        text -- (str)
+            text to be preprocessed
+
         Returns:
-        preprocessed -- (list) a list containing tokens in the preprocessed text
+            (list)
+                a list containing tokens in the preprocessed text
         """
         text = text.replace(r'<br />', ' ')
         preprocessed = []
@@ -43,8 +47,10 @@ class MyPreprocessor:
         Given a list of documents doc_list (e.g., reviews, news articles)
         this function carries out sentence tokenization and other preprocessing
         and returns a preprocessed corpus.
-        Keyword arguments:
-        doc_list -- (list) a list of strings, each string representing a document.
+
+        Arguments:
+        doc_list -- (list)
+            a list of strings, each string representing a document.
         Returns:
         preprocessed_corpus -- (list) a list of lists of preprocessed (tokenized and stopword-removed)
         sentences in the documents with the following format.
