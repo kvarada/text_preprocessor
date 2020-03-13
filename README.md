@@ -4,7 +4,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/text_preprocessor/badge/?version=latest)](https://text_preprocessor.readthedocs.io/en/latest/?badge=latest)
 
-A package to preprocess text data
+A package to preprocess text data. 
 
 ### Installation:
 
